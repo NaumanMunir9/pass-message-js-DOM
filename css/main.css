@@ -1,0 +1,38 @@
+:root {
+  --lightBlue: #95b8d1;
+  --mainWhite: #f5f5f5;
+  --mainBlack: #333;
+}
+
+.max-height {
+  min-height: 100vh;
+}
+
+body {
+  background: var(--lightBlue);
+}
+
+.message-container {
+  background: var(--mainWhite);
+}
+
+.message-content {
+  color: var(--lightBlue);
+}
+
+#submitBtn {
+  background: var(--lightBlue);
+}
+
+#submitBtn:hover {
+  color: var(--lightBlue);
+  color: var(--mainBlack);
+}
+
+.feedback {
+  display: none;
+}
+
+.show {
+  display: block;
+}
